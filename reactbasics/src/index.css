@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+  /* background-color: #e5e5e5; */
+  padding: 20px;
+}
+
+.person {
+  border: 1px solid #ccc;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 70px #bebebe, inset -20px -20px 70px #ffffff;
+}
+
+.person h2 {
+  color: rgb(86, 86, 235);
+}
+
+.person p {
+  letter-spacing: 8px;
+  color: rgb(131, 130, 130);
+}
+
+.person h4 {
+  font-weight: normal;
+}
