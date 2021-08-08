@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import TourList from "./Components/TourList";
 
 function App() {
-  return(
-    <>
-      <h1>App</h1>
-    </>
+  return (
+    <React.Fragment>
+      <Navbar />
+      <TourList />
+    </React.Fragment>
   );
 }
 

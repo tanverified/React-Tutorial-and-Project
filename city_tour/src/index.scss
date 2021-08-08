@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+// ---- variables -------------
+
+$mainBlack: #222;
+$mainBlue: #4235f8;
+$mainGreen: rgb(64, 194, 114);
+$mainGrey: #ececec;
+$mainTransition:all 0.3s linear;
+
+// ---- Universal Styling -------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+// ------ Navbar  --------------
